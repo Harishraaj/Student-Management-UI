@@ -1,0 +1,70 @@
+.content
+{
+  /* padding:1px 16px; */
+  height:1000px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 10%;
+  
+}
+.content h2{
+  font-size: xx-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(100, 149, 204);
+}
+.content button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  margin-top: 15px;
+  margin-left: 5px;
+  size: 30px;
+}
+
+.content button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.content button:hover span {
+  padding-right: 25px;
+}
+
+.content button:hover span:after {
+  opacity: 1;
+  right: 0;
+  cursor: pointer;
+}
+
+.resultButton{
+  margin-left: 1200px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(233, 150, 48);
+  padding: 5px;
+}
+.resultButton:hover{
+  background-color: rgb(255, 202, 56);
+}
+.search-button{
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: azure;
+}
+table, th, td {
+  width:500px;
+  height:50px;
+  margin-left: 360px;
+  margin-top: 200px;
+}
+.inputField{
+  margin-left: 400px;
+}
+.tableColor{
+  color: white;
+}

@@ -1,0 +1,36 @@
+.App input{
+    margin-top: 8px;
+    height: 35px;
+    outline: none;
+    border: 1px solid rgb(180, 177, 177);
+    border-radius: 15px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 300;
+    size: 25px;
+   }
+   .App button{
+       padding: 10px;
+       margin-top: 10px;
+       border-radius: 20px;
+       border: none;
+       color: rgb(255, 254, 254);
+       background-color: rgb(96, 160, 243);
+       cursor: pointer;
+   }
+   .App button :hover{
+    background-color: rgb(40, 127, 241);
+   }
+   .App{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+   }
+   .App h4{
+    color: rgb(39, 39, 39);
+    padding-top: 60px;
+    padding-bottom: 60px;
+   }
+   .inputField{
+    margin-left: 350px;
+  }
+  

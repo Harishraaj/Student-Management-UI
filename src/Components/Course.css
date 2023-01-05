@@ -1,0 +1,39 @@
+.container {
+    padding: 2rem 2rem;
+    text-align: center;
+  }
+  .card{
+    display: inline-block;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius:10px;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    margin-left: 90px;
+    margin-top: 100px;
+
+  }
+  .card button{
+      margin: 60px;
+      margin-top: 180px;
+      width: 150px;
+      border: none;
+      border-radius: 10px;
+      padding: 10px;
+      text-align: center;
+      background-color: rgba(37, 32, 32, 0.15);  
+      backdrop-filter: blur(4px);
+      color: rgb(255, 255, 255);
+      cursor: pointer;
+  }
+#course
+{
+ background-image: url('https://hq2.recyclist.co/wp-content/uploads/sites/2/2015/02/books-300x300.jpg');
+}
+#staffCourse {
+ background-image: url("https://st-leonards.oxon.sch.uk/wp-content/uploads/2019/06/DSF6292-300x300.jpg");
+}
+#studentCourse
+{
+ background-image:url("https://lumina.com/wp-content/uploads/Education-300x300.jpg");
+}
